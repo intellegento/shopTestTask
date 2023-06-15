@@ -1,0 +1,23 @@
+// @import "../../styles/typography";
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: #F5F8FF;
+
+    &__nav {
+        display: flex;
+        flex-direction: row;
+
+        li {
+            list-style: none;
+            margin-right: 40px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
