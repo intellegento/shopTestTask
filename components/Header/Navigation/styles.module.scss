@@ -3,4 +3,32 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 14px 80px;
+
+    &__searchSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(79.06deg, #2A5CF6 17.67%, #2A5CF6 17.68%, #7191F4 143.49%);
+        border-radius: 56px;
+        padding: 0 2px;
+
+        input {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 9px 22px 8px 24px;
+            gap: 10px;
+            border: none;
+            width: 744px;
+            background: #FFFFFF;
+            border-radius: 58px;
+        }
+
+        button {
+            border: none;
+            background: none;
+            color: #fff;
+            padding: 0 16px;
+        }
+    }
 }

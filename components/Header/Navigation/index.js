@@ -11,10 +11,10 @@ const Navigation = () => {
           className={styles.navigation__searchSection__input}
           type="text"
           class="input"
-          placeholder="Search"
+          placeholder="Напишите, что вы ищете..."
         ></input>
         <button className={styles.navigation__searchSection__button}>
-          Search
+          Найти
         </button>
       </div>
       <div className={styles.navigation__userSection}></div>
