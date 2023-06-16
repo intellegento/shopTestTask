@@ -20,4 +20,14 @@
             }
         }
     }
+
+    &__links {
+        display: flex;
+        flex-direction: row;
+
+        li {
+            list-style: none;
+            margin-left: 17px;
+        }
+    }
 }
