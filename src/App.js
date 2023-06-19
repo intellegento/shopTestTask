@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Navigation from '../components/Header/Navigation';
 import WelcomeSlider from '../components/WelcomeSlider';
+import Benefits from '../components/Benefits';
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       <Header />
       <Navigation />
       <WelcomeSlider />
-      <h1>Hello, World!</h1>
+      <Benefits />
     </div>
   );
 };
