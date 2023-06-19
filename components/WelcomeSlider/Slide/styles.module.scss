@@ -1,0 +1,90 @@
+.slide {
+    width: 1280px;
+    height: 356px;
+    border-radius: 12px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    margin: 14px 0 35px 0;
+
+    &__background {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        &__topLeft {
+            background-image: url("./images/leftTop.png");
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            top: 0;
+            left: 0;
+        }
+
+        &__topRight {
+            background-image: url("./images/righttop.png");
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 130px;
+            height: 300px;
+            top: 0;
+            right: 0;
+        }
+
+        &__bigF {
+            background-image: url("./images/bigf.png");
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 350px;
+            height: 300px;
+            bottom: 0;
+            right: 50px;
+        }
+
+        &__smallF {
+            background-image: url("./images/smallf.png");
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 350px;
+            height: 250px;
+            bottom: 0;
+            right: 200px;
+        }
+    }
+
+    &__info {
+        position: absolute;
+        top: 50px;
+        left: 200px;
+
+        &__title {
+            width: 465px;
+            font-family: Rubik;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 33px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: left;
+            color: #5C71B2;
+            margin-bottom: 16px;
+        }
+
+        &__list {
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: left;
+            margin-left: 20px;
+            margin-bottom: 16px;
+
+            li {
+                list-style:disc
+            }
+        }
+    }
+}

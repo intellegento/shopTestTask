@@ -5,7 +5,7 @@ const Button = ({data}) => {
   return (
    <button className={styles.button}>
         <img className={styles.button__icon} src="/icons/menuBtn.svg" alt="catalog" />
-        <span className={styles.button__text}>Catalog</span>
+        <span className={styles.button__text}>Каталог</span>
    </button>
   );
 };
