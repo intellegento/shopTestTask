@@ -17,7 +17,26 @@ const Navigation = () => {
           Найти
         </button>
       </div>
-      <div className={styles.navigation__userSection}></div>
+      <ul className={styles.navigation__userSection}>
+        <li>
+          <a className={styles.navigation__userSection__link} href="#">
+            <img src="../icons/login-icon.svg" alt="Войти" />
+            <span>Войти</span>
+          </a>
+        </li>
+        <li>
+          <a className={styles.navigation__userSection__link} href="#">
+            <img src="../icons/heart.svg" alt="Избранное" />
+            <span>Избранное</span>
+          </a>
+        </li>
+        <li>
+          <a className={styles.navigation__userSection__link} href="#">
+            <img src="../icons/basket-icon.svg" alt="Корзина" />
+            <span>Корзина</span>
+          </a>
+        </li>
+      </ul>
     </div>
   );
 };
