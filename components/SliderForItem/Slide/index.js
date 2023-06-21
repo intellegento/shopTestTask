@@ -2,29 +2,36 @@ import React from "react";
 import styles from "./styles.module.scss";
 import Button from "../../Button";
 
-const Slide = ({data}) => {
+const SlideItem = () => {
   return (
-   <div className={styles.slide}>
-     <div className={styles.slide__background}>
-        <span className={styles.slide__background__topLeft}></span>
-        <span className={styles.slide__background__topRight}></span>
-        <span className={styles.slide__background__bigF}></span>
-        <span className={styles.slide__background__smallF}></span>
+   <div className={styles.slideItem}>
+     <div className={styles.slideItem__img}>
+        <img src="/images/image 11.png" alt="" />
+        {/* <img src="/icons/favorite_border.svg" alt="" /> */}
      </div>
-     <div className={styles.slide__info}>
-        <h3 className={styles.slide__info__title}>Сезон подготовки к новогодним 
-продажам открыт!</h3>
-        <ul className={styles.slide__info__list}>
-            <li>Искуственные елки</li>
-            <li>Гирлянды</li>
-            <li>Игрушки и украшения</li>
-            <li>Пиротехника</li>
-            <li>Новогодние подарки</li>
-        </ul>
-        <Button />
+     <div className={styles.slideItem__descr}>
+        <span>Ель рожденственная с белыми кончиками</span>
+     </div>
+     <div className={styles.slideItem__spec}>
+            <span>Размер</span>
+            <ul className={styles.slideItem__spec__size}>
+                <li>60см</li>
+                <li>90см</li>
+                <li>120см</li>
+                <li>150см</li>
+                <li>180см</li>
+                <li>210см</li>
+                <li>240см</li>
+                <li>270см</li>
+                <li>300см</li>
+            </ul>
+       <div>
+       <span className={styles.slideItem__coast}>6 331.00 р.</span>
+       <Button />
+       </div>
      </div>
    </div>
   );
 };
 
-export default Slide;
+export default SlideItem;
